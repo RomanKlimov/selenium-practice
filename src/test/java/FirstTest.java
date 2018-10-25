@@ -4,13 +4,6 @@ import static org.junit.Assert.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-/**
- * 19.10.2018
- *
- * @author Andrey Romanov (steampart@gmail.com)
- * @version 1.0
- */
-
 public class FirstTest {
 
     private WebDriver driver;
