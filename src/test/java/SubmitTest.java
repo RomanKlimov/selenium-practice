@@ -1,12 +1,12 @@
+import org.junit.Test;
 
-public class LoginTest  extends TestBase{
-    @Override
-    public void testLogin() {
-        super.testLogin();
-    }
+public class SubmitTest extends TestBase{
 
-    @Override
+    @Test
     public void testSubmit() {
-        super.testSubmit();
+        OpenHomePage();
+        Login();
+        OpenSubmitPage();
+        CreatePost();
     }
 }
