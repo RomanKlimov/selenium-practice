@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+    <BaseUrl>https://news.ycombinator.com/newest</BaseUrl>
+    <Login>test00007</Login>
+    <Password>qwerty007</Password>
+</Settings>

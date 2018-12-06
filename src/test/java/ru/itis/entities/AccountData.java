@@ -1,5 +1,9 @@
-package entities;
+package ru.itis.entities;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
 public class AccountData {
 
     private String login;
