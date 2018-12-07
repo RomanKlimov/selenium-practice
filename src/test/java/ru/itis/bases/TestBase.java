@@ -17,11 +17,6 @@ public class TestBase {
         appManager = AppManager.getInstance();
     }
 
-    @After
-    public void tearDown() throws Exception {
-        appManager.stop();
-    }
-
     protected void setApp(AppManager appManager) {
         this.appManager = appManager;
     }

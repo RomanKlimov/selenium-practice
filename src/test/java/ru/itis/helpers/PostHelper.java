@@ -25,10 +25,10 @@ public class PostHelper extends HelperBase {
         List<WebElement> storylink = getAppManager().getWebDriver().findElements(By.className("storylink"));
         for (WebElement element : storylink) {
             if (element.getText().equals("ТЕСТОВЫЙ ПОСТ")) {
-                return false;
+                return true;
             }
         }
-        return true;
+        return false;
     }
 
 

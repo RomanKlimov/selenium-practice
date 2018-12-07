@@ -16,13 +16,13 @@ public class LoginTest extends TestBase {
         Assert.assertTrue(getAppManager().getLoginHelper().isLoggedIn(userData.getLogin()));
     }
 
-    @Test
-    public void loginWithInvalidData() {
-        AccountData userData = new AccountData("test00007", "invalidPassword");
-        getAppManager().getNavigationHelper().getLoginPage();
-        getAppManager().getLoginHelper().doLogin(userData);
-
-        Assert.assertFalse(getAppManager().getLoginHelper().isLoggedIn(userData.getLogin()));
-    }
+//    @Test
+//    public void loginWithInvalidData() {
+//        AccountData userData = new AccountData("test00007", "invalidPassword");
+//        getAppManager().getNavigationHelper().getLoginPage();
+//        getAppManager().getLoginHelper().doLogin(userData);
+//
+//        Assert.assertFalse(getAppManager().getLoginHelper().isLoggedIn(userData.getLogin()));
+//    }
 
 }
